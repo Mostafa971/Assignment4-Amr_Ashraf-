@@ -1,0 +1,1649 @@
+/* -------------------------------------- MEDIA QUERY STYLING -------------------------------------- */
+
+/* ----------------------- RANGE ( MIN-WIDTH=0 ) TO ( MAX-WIDTH=568) ----------------------- */
+
+@media screen and (max-width: 568px)
+{
+    /* ----------------------- HOME SECTION STYLING ----------------------- */
+    /* navigation-bar */
+    #home .clr-opacity .nav-bar .nav-con
+    {
+    width: 100%;
+    left: 0px;
+    }
+    #home .clr-opacity .nav-bar .nav-con .logo-con
+    {
+    width: 100%;
+    text-align: center;
+    float: none;
+    }
+    #home .clr-opacity .nav-bar .nav-con .logo-con h2
+    {
+    padding: 5px 0;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con
+    {
+    width: fit-content;
+    margin: auto;
+    float: none;
+    }
+    #home .clr-opacity .nav-bar .nav-con .nav-center
+    {
+    width: 100%;
+    margin: auto;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con ul
+    {
+    padding-top: 0px;
+    float: none;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con ul li
+    {
+    padding: 0px 8px;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con ul li a
+    {
+    font-size: 12px;
+    }
+    /* HOME CONTENT */
+    #home .h-content h3
+    {
+    font-size: 18px;
+    }
+    #home .h-content h1
+    {
+    font-size: 40px;
+    }
+    #home .h-content h4
+    {
+    font-size: 20px;
+    }
+
+    /* ----------------------- SECTION ONE STYLING ----------------------- */
+    #sec-one
+    {
+    padding: 0px;
+    }
+    #sec-one .par-data
+    {
+    width: 90%;
+    }
+    /* image-section */
+    #sec-one .par-data .img-container
+    {
+    width: 100%;
+    float: none;
+    padding-right: 0px;
+    }
+    #sec-one .par-data .img-container .img-bdr
+    {
+    border: none;
+    margin: 0px auto 50px;
+    width: 100%;
+    }
+    #sec-one .par-data .img-container .img-bdr img
+    {
+        width: 100%;
+    }
+    #sec-one .par-data .img-container .img-bdr .layer-container
+    {
+    transform: translate(0px , 0px);
+    }
+    /* about-section */
+    #sec-one .par-data .about
+    {
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+    }
+    #sec-one .par-data .about h2
+    {
+    font-size: 27px;
+    padding-left: 6px;
+    }
+    #sec-one .par-data .about .info-con .info-one
+    {
+    width: 100%;
+    float: none;
+    }
+    #sec-one .par-data .about .info-con .info-two
+    {
+    width: 100%;
+    float: none;
+    }
+    #sec-one .par-data .about .btn
+    {
+    text-align: center;
+    }
+    #sec-one .par-data .about .btn button
+    {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    }
+
+    /* ----------------------- SECTION TWO STYLING ----------------------- */
+    #sec-two
+    {
+    padding: 20px 0px;
+    }
+    #sec-two .sec-head
+    {
+    width: 90%;
+    padding: 30px 0px 10px;
+    }
+    #sec-two .sec-head h2
+    {
+    font-size: 30px;
+    }
+    #sec-two .sec-head .lines i
+    {
+    width: 50px;
+    }
+    #sec-two .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-two .cards-container
+    {
+    width: 90%;
+    }
+    #sec-two .cards-container .card
+    {
+    margin: auto;
+    width: 90%;
+    float: none;
+    padding: 30px 15px;
+    }
+    #sec-two .cards-container .card i
+    {
+    font-size: 29px;
+    }
+    #sec-two .cards-container .card h3
+    {
+    font-size: 20px;
+    }
+
+    /* ----------------------- SECTION THREE STYLING ----------------------- */
+    #sec-three
+    {
+    padding: 30px 0px;
+    }
+    #sec-three .sec-head
+    {
+    width: 90%;
+    padding: 10px 0px 30px;
+    }
+    #sec-three .sec-head h2
+    {
+    font-size: 30px;
+    }
+    #sec-three .sec-head .lines i
+    {
+    width: 50px;
+    }
+    #sec-three .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-three .caption
+    {
+    width: 90%;
+    text-align: center;
+    margin: 0px auto 20px;
+    }
+    #sec-three .caption button
+    {
+    font-size: 14px;
+    padding: 0px 6px;
+    transition: all 0.5s;
+    }
+    #sec-three .container
+    {
+    width: 90%;
+    }
+    #sec-three .container .product-card
+    {
+    width: 100%;
+    }
+
+    /* ----------------------- SECTION FOUR STYLING ----------------------- */
+    #sec-four
+    {
+    padding: 30px 0px 0px;
+    }
+    #sec-four .gr-container
+    {
+    padding: 30px 0px;
+    }
+    #sec-four .gr-container .graph
+    {
+    width: 100%;
+    margin-bottom: 30px;
+    }
+    #sec-four .gr-container .graph i
+    {
+    font-size: 25px;
+    margin-bottom: 10px;
+    }
+    #sec-four .gr-container .graph h3
+    {
+    font-size: 24px;
+    margin-bottom: 0px;
+    }
+    #sec-four .gr-container .graph h4
+    {
+    font-size: 16px;
+    }
+
+    /* ----------------------- SECTION FIVE STYLING ----------------------- */
+    #sec-five
+    {
+    padding: 20px 0px 0px;
+    }
+    #sec-five .sec-head
+    {
+    width: 100%;
+    padding: 20px 0px 20px;
+    }
+    #sec-five .sec-head h2
+    {
+    font-size: 30px;
+    }
+    #sec-five .sec-head .lines i
+    {
+    width: 50px;
+    }
+    #sec-five .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-five .feed-con
+    {
+    width: 90%;
+    }
+    #sec-five .feed-con .c-feed
+    {
+    padding: 30px;
+    }
+    #sec-five .feed-con .c-feed .img-con
+    {
+    width: 100%;
+    text-align: center;
+    }
+    #sec-five .feed-con .c-feed .img-con img
+    {
+    width: 120px;
+    border-radius: 50%;
+    }
+    #sec-five .feed-con .c-feed .content
+    {
+    width: 100%;
+    padding-top: 30px;
+    }
+    #sec-five .feed-con .c-feed .content h3
+    {
+    font-size: 24px;
+    }
+    #sec-five .feed-con .c-feed .content h4
+    {
+    font-size: 14px;
+    margin-bottom: 8px;
+    }
+    #sec-five .feed-con .c-feed .content h4 i
+    {
+    font-size: 12px;
+    padding-right: 7px;
+    }
+    #sec-five .feed-con .c-feed .content .stars i
+    {
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+
+    /* ----------------------- SECTION SIX STYLING ----------------------- */
+    #sec-six
+    {
+    padding: 20px 0px;
+    }
+    #sec-six .sec-head
+    {
+    width: 90%;
+    padding: 10px 0px 20px;
+    }
+    #sec-six .sec-head h2
+    {
+    font-size: 30px;
+    }
+    #sec-six .sec-head .lines i
+    {
+    width: 50px;
+    }
+    #sec-six .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-six .blog-container
+    {
+    width: 90%;
+    margin: 0px auto;
+    }
+    #sec-six .blog-container .blog
+    {
+    width: 100%;
+    }
+    #sec-six .blog-container .blog .blog-info .date
+    {
+    font-size: 14px;
+    line-height: 20px;
+    }
+    #sec-six .blog-container .blog .blog-info h3
+    {
+    font-size: 22px;
+    margin: 10px 0px;
+    }
+    #sec-six .blog-container .blog .blog-info h3 a
+    {
+    font-size: 22px;
+    margin: 10px 0px;
+    }
+    #sec-six .blog-container .blog .blog-info p
+    {
+    margin-bottom: 12px;
+    }
+    #sec-six .blog-container .blog .blog-info .rm-link a
+    {
+    font-size: 14px;
+    }
+    #sec-six .blog-container .blog .blog-info .rm-link i
+    {
+    font-size: 12px;
+    padding-left: 3px;
+    }
+
+    /* ----------------------- SECTION SEVEN STYLING ----------------------- */
+    #sec-seven
+    {
+    padding: 20px 0px;
+    }
+    #sec-seven .sec-head
+    {
+    width: 90%;
+    padding: 30px 0px 30px;
+    }
+    #sec-seven .sec-head h2
+    {
+    font-size: 30px;
+    }
+    #sec-seven .sec-head .lines i
+    {
+    width: 50px;
+    }
+    #sec-seven .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-seven .form-container
+    {
+    width: 90%;
+    }
+    #sec-seven .form-container form .name-con
+    {
+    width: 100%;
+    padding-right: 0px;
+    }
+    #sec-seven .form-container form .mail-con
+    {
+    width: 100%;
+    padding-left: 0px;
+    }
+    #sec-seven .form-container form input[name="clint-name"] , input[name="clint-mail"] , input[name="subject"] , textarea
+    {
+    height: 30px;
+    padding: 5px 10px;
+    }
+    #sec-seven .form-container form .btn
+    {
+        text-align: center;
+    }
+    #sec-seven .form-container form .btn button
+    {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    }
+
+    /* ----------------------- FOOTER SECTION STYLING ----------------------- */
+    #footer .footer-icons
+    {
+    margin-bottom: 13px;
+    }
+    #footer .footer-icons i
+    {
+    font-size: 16px;
+    }
+    #footer .cr-sec
+    {
+    font-size: 15px;
+    }
+    #footer .cr-sec a
+    {
+    font-size: 15px;
+    font-weight: bold;
+    }
+}
+
+
+/* ----------------------- RANGE ( MIN-WIDTH=569 ) TO ( MAX-WIDTH=768) ----------------------- */
+
+@media screen and (min-width: 569px) and (max-width:768px)
+{
+    /* ----------------------- HOME SECTION STYLING ----------------------- */
+    /* navigation-bar */
+    #home .clr-opacity .nav-bar .nav-con
+    {
+    width: 100%;
+    left: 0px;
+    }
+    #home .clr-opacity .nav-bar .nav-con .logo-con
+    {
+    width: 100%;
+    text-align: center;
+    float: none;
+    }
+    #home .clr-opacity .nav-bar .nav-con .logo-con h2
+    {
+    padding: 5px 0;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con
+    {
+    width: fit-content;
+    margin: auto;
+    float: none;
+    }
+    #home .clr-opacity .nav-bar .nav-con .nav-center
+    {
+    width: 100%;
+    margin: auto;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con ul
+    {
+    padding-top: 0px;
+    float: none;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con ul li a
+    {
+    font-size: 14px;
+    }
+    /* HOME CONTENT */
+    #home .h-content h3
+    {
+    font-size: 18px;
+    }
+    #home .h-content h1
+    {
+    font-size: 40px;
+    }
+    #home .h-content h4
+    {
+    font-size: 20px;
+    }
+
+    /* ----------------------- SECTION ONE STYLING ----------------------- */
+    #sec-one
+    {
+    padding: 0px;
+    }
+    #sec-one .par-data
+    {
+    width: 80%;
+    }
+    /* image-section */
+    #sec-one .par-data .img-container
+    {
+    width: 100%;
+    float: none;
+    padding-right: 0px;
+    }
+    #sec-one .par-data .img-container .img-bdr
+    {
+    border: none;
+    margin: 0px auto 50px;
+    width: 90%;
+    }
+    #sec-one .par-data .img-container .img-bdr img
+    {
+    width: 100%;
+    }
+    #sec-one .par-data .img-container .img-bdr .layer-container
+    {
+    transform: translate(0px , 0px);
+    }
+    /* about-section */
+    #sec-one .par-data .about
+    {
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+    }
+    #sec-one .par-data .about h2
+    {
+    font-size: 34px;
+    padding-left: 6px;
+    }
+    #sec-one .par-data .about .info-con .info-one
+    {
+    width: 100%;
+    float: none;
+    }
+    #sec-one .par-data .about .info-con .info-two
+    {
+    width: 100%;
+    float: none;
+    }
+    #sec-one .par-data .about .btn
+    {
+    text-align: center;
+    }
+    #sec-one .par-data .about .btn button
+    {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 7px 14px;
+    border-radius: 4px;
+    }
+
+    /* ----------------------- SECTION TWO STYLING ----------------------- */
+    #sec-two
+    {
+    padding: 20px 0px;
+    }
+    #sec-two .sec-head
+    {
+    width: 90%;
+    padding: 30px 0px 10px;
+    }
+    #sec-two .sec-head h2
+    {
+    font-size: 32px;
+    }
+    #sec-two .sec-head .lines i
+    {
+    width: 70px;
+    }
+    #sec-two .sec-head .lines .hr-bt i
+    {
+    width: 130px;
+    }
+    #sec-two .cards-container
+    {
+    width: 70%;
+    }
+    #sec-two .cards-container .card
+    {
+    margin: auto;
+    width: 100%;
+    float: none;
+    padding: 30px 15px;
+    }
+    #sec-two .cards-container .card i
+    {
+    font-size: 29px;
+    }
+    #sec-two .cards-container .card h3
+    {
+    font-size: 22px;
+    }
+
+    /* ----------------------- SECTION THREE STYLING ----------------------- */
+    #sec-three
+    {
+    padding: 30px 0px;
+    }
+    #sec-three .sec-head
+    {
+    width: 90%;
+    padding: 10px 0px 30px;
+    }
+    #sec-three .sec-head h2
+    {
+    font-size: 32px;
+    }
+    #sec-three .sec-head .lines i
+    {
+    width: 50px;
+    }
+    #sec-three .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-three .caption
+    {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto 20px;
+    }
+    #sec-three .caption button
+    {
+    font-size: 16px;
+    padding: 0px 12px;
+    transition: all 0.5s;
+    }
+    #sec-three .container
+    {
+    width: 80%;
+    }
+    #sec-three .container .product-card
+    {
+    width: 100%;
+    }
+
+    /* ----------------------- SECTION FOUR STYLING ----------------------- */
+    #sec-four
+    {
+    padding: 30px 0px 0px;
+    }
+    #sec-four .gr-container
+    {
+    padding: 30px 0px;
+    }
+    #sec-four .gr-container .graph
+    {
+    width: 100%;
+    margin-bottom: 30px;
+    }
+    #sec-four .gr-container .graph i
+    {
+    font-size: 25px;
+    margin-bottom: 10px;
+    }
+    #sec-four .gr-container .graph h3
+    {
+    font-size: 26px;
+    margin-bottom: 0px;
+    }
+    #sec-four .gr-container .graph h4
+    {
+    font-size: 16px;
+    }
+
+    /* ----------------------- SECTION FIVE STYLING ----------------------- */
+    #sec-five
+    {
+    padding: 20px 0px 0px;
+    }
+    #sec-five .sec-head
+    {
+    width: 100%;
+    padding: 20px 0px 20px;
+    }
+    #sec-five .sec-head h2
+    {
+    font-size: 32px;
+    }
+    #sec-five .sec-head .lines i
+    {
+    width: 50px;
+    }
+    #sec-five .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-five .feed-con
+    {
+    width: 80%;
+    }
+    #sec-five .feed-con .c-feed
+    {
+    padding: 30px;
+    }
+    #sec-five .feed-con .c-feed .img-con
+    {
+    width: 100%;
+    text-align: center;
+    }
+    #sec-five .feed-con .c-feed .img-con img
+    {
+    width: 120px;
+    }
+    #sec-five .feed-con .c-feed .content
+    {
+    width: 100%;
+    padding-top: 30px;
+    }
+    #sec-five .feed-con .c-feed .content h3
+    {
+    font-size: 24px;
+    }
+    #sec-five .feed-con .c-feed .content h4
+    {
+    font-size: 14px;
+    margin-bottom: 8px;
+    }
+    #sec-five .feed-con .c-feed .content h4 i
+    {
+    font-size: 12px;
+    padding-right: 7px;
+    }
+    #sec-five .feed-con .c-feed .content .stars i
+    {
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+
+    /* ----------------------- SECTION SIX STYLING ----------------------- */
+    #sec-six
+    {
+    padding: 20px 0px;
+    }
+    #sec-six .sec-head
+    {
+    width: 90%;
+    padding: 10px 0px 20px;
+    }
+    #sec-six .sec-head h2
+    {
+    font-size: 32px;
+    }
+    #sec-six .sec-head .lines i
+    {
+    width: 50px;
+    }
+    #sec-six .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-six .blog-container
+    {
+    width: 80%;
+    margin: 0px auto;
+    }
+    #sec-six .blog-container .blog
+    {
+    width: 100%;
+    }
+    #sec-six .blog-container .blog .blog-info .date
+    {
+    font-size: 14px;
+    line-height: 20px;
+    }
+    #sec-six .blog-container .blog .blog-info h3
+    {
+    font-size: 22px;
+    margin: 10px 0px;
+    }
+    #sec-six .blog-container .blog .blog-info h3 a
+    {
+    font-size: 22px;
+    margin: 10px 0px;
+    }
+    #sec-six .blog-container .blog .blog-info p
+    {
+    margin-bottom: 12px;
+    }
+    #sec-six .blog-container .blog .blog-info .rm-link a
+    {
+    font-size: 14px;
+    }
+    #sec-six .blog-container .blog .blog-info .rm-link i
+    {
+    font-size: 12px;
+    padding-left: 3px;
+    }
+
+    /* ----------------------- SECTION SEVEN STYLING ----------------------- */
+    #sec-seven
+    {
+    padding: 20px 0px;
+    }
+    #sec-seven .sec-head
+    {
+    width: 90%;
+    padding: 30px 0px 30px;
+    }
+    #sec-seven .sec-head h2
+    {
+    font-size: 30px;
+    }
+    #sec-seven .sec-head .lines i
+    {
+    width: 50px;
+    }
+    #sec-seven .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-seven .form-container
+    {
+    width: 80%;
+    }
+    #sec-seven .form-container form .name-con
+    {
+    width: 100%;
+    padding-right: 0px;
+    }
+    #sec-seven .form-container form .mail-con
+    {
+    width: 100%;
+    padding-left: 0px;
+    }
+    #sec-seven .form-container form input[name="clint-name"] , input[name="clint-mail"] , input[name="subject"] , textarea
+    {
+    height: 30px;
+    padding: 5px 10px;
+    }
+    #sec-seven .form-container form .btn
+    {
+    text-align: center;
+    }
+    #sec-seven .form-container form .btn button
+    {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    }
+
+    /* ----------------------- FOOTER SECTION STYLING ----------------------- */
+    #footer .footer-icons
+    {
+    margin-bottom: 14px;
+    }
+    #footer .footer-icons i
+    {
+    font-size: 17px;
+    }
+    #footer .cr-sec
+    {
+    font-size: 18px;
+    }
+    #footer .cr-sec a
+    {
+    font-size: 18px;
+    font-weight: bold;
+    }
+}
+
+
+/* ----------------------- RANGE ( MIN-WIDTH=769 ) TO ( MAX-WIDTH=992) ----------------------- */
+
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+    /* ----------------------- HOME SECTION STYLING ----------------------- */
+    /* navigation-bar */
+    #home .clr-opacity .nav-bar .nav-con
+    {
+    width: 100%;
+    }
+    #home .clr-opacity .nav-bar .nav-con .logo-con
+    {
+    width: 20%;
+    float: left;
+    }
+    #home .clr-opacity .nav-bar .nav-con .logo-con h2
+    {
+    padding: 15px 0;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con
+    {
+    width: 80%;
+    float: right;
+    padding-bottom: 5px;
+    }
+    #home .clr-opacity .nav-bar .nav-con .nav-center
+    {
+    width: 90%;
+    margin: auto;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con ul
+    {
+    padding-top: 20px;
+    float: right;
+    }
+    /* HOME CONTENT */
+    #home .h-content h3
+    {
+    font-size: 24px;
+    }
+    #home .h-content h1
+    {
+    font-size: 70px;
+    }
+    #home .h-content h4
+    {
+    font-size: 26px;
+    }
+
+    /* ----------------------- SECTION ONE STYLING ----------------------- */
+    #sec-one
+    {
+    padding: 0px;
+    }
+    #sec-one .par-data
+    {
+    width: 90%;
+    }
+    /* image-section */
+    #sec-one .par-data .img-container
+    {
+    width: 50%;
+    float: left;
+    padding-right: 40px;
+    }
+    #sec-one .par-data .img-container .img-bdr
+    {
+    border: none;
+    margin-left: auto;
+    }
+    #sec-one .par-data .img-container .img-bdr .layer-container
+    {
+    transform: translate(0px , 0px);
+    }
+    #sec-one .par-data .img-container .img-bdr .layer-container img
+    {
+    width: 100%;
+    }
+    /* about-section */
+    #sec-one .par-data .about
+    {
+    width: 50%;
+    float: left;
+    padding-left: 0px;
+    }
+    #sec-one .par-data .about h2
+    {
+    font-size: 34px;
+    padding-left: 6px;
+    }
+
+    #sec-one .par-data .about .info-con .info-one
+    {
+    width: 40%;
+    float: left;
+    }
+    #sec-one .par-data .about .info-con .info-two
+    {
+    width: 60%;
+    float: left;
+    }
+    #sec-one .par-data .about .info-con .info-one p
+    {
+    margin-bottom: 13px;
+    line-height: 1;
+    font-size: 14px;
+    }
+    #sec-one .par-data .about .info-con .info-two p
+    {
+    margin-bottom: 13px;
+    line-height: 1;
+    font-size: 14px;
+    }
+    #sec-one .par-data .about .info-con .info-one span
+    {
+    padding-right: 3px;
+    }
+    #sec-one .par-data .about .info-con .info-two span
+    {
+    padding-right: 3px;
+    }
+    #sec-one .par-data .about .btn button
+    {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 7px 14px;
+    border-radius: 4px;
+    }
+
+    /* ----------------------- SECTION TWO STYLING ----------------------- */
+    #sec-two
+    {
+    padding: 20px 0px;
+    }
+    #sec-two .sec-head
+    {
+    width: 90%;
+    padding: 30px 0px 10px;
+    }
+    #sec-two .sec-head h2
+    {
+    font-size: 36px;
+    }
+    #sec-two .sec-head .lines .hr-bt i
+    {
+    width: 150px;
+    }
+    #sec-two .cards-container
+    {
+    width: 90%;
+    }
+    #sec-two .cards-container .card
+    {
+    margin: auto;
+    width: 50%;
+    float: left;
+    padding: 30px 15px;
+    }
+    #sec-two .cards-container .card i
+    {
+    font-size: 30px;
+    }
+    #sec-two .cards-container .card h3
+    {
+    font-size: 24px;
+    }
+
+    /* ----------------------- SECTION THREE STYLING ----------------------- */
+    #sec-three
+    {
+    padding: 30px 0px;
+    }
+    #sec-three .sec-head
+    {
+    width: 90%;
+    padding: 10px 0px 30px;
+    }
+    #sec-three .sec-head h2
+    {
+    font-size: 36px;
+    }
+    #sec-three .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-three .caption
+    {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto 20px;
+    }
+    #sec-three .caption button
+    {
+    font-size: 16px;
+    padding: 0px 12px;
+    transition: all 0.5s;
+    }
+    #sec-three .container
+    {
+    width: 90%;
+    }
+    #sec-three .container .product-card
+    {
+    width: 50%;
+    }
+
+    /* ----------------------- SECTION FOUR STYLING ----------------------- */
+    #sec-four
+    {
+    padding: 30px 0px 0px;
+    }
+    #sec-four .gr-container
+    {
+    padding: 30px 0px;
+    }
+    #sec-four .gr-container .graph
+    {
+    width: 50%;
+    margin-bottom: 30px;
+    }
+    #sec-four .gr-container .graph i
+    {
+    font-size: 25px;
+    margin-bottom: 10px;
+    }
+    #sec-four .gr-container .graph h3
+    {
+    font-size: 26px;
+    margin-bottom: 0px;
+    }
+    #sec-four .gr-container .graph h4
+    {
+    font-size: 16px;
+    }
+
+    /* ----------------------- SECTION FIVE STYLING ----------------------- */
+    #sec-five
+    {
+    padding: 20px 0px 0px;
+    }
+    #sec-five .sec-head
+    {
+    width: 100%;
+    padding: 20px 0px 20px;
+    }
+    #sec-five .sec-head h2
+    {
+    font-size: 36px;
+    }
+    #sec-five .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-five .feed-con
+    {
+    width: 80%;
+    }
+    #sec-five .feed-con .c-feed
+    {
+    padding: 40px;
+    }
+    #sec-five .feed-con .c-feed .img-con
+    {
+    width: 20%;
+    padding-right: 15px;
+    }
+    #sec-five .feed-con .c-feed .content
+    {
+    width: 80%;
+    padding-left: 10px;
+    }
+    #sec-five .feed-con .c-feed .content h3
+    {
+    font-size: 26px;
+    }
+    #sec-five .feed-con .c-feed .content h4
+    {
+    font-size: 14px;
+    margin-bottom: 8px;
+    }
+    #sec-five .feed-con .c-feed .content h4 i
+    {
+    font-size: 12px;
+    padding-right: 7px;
+    }
+    #sec-five .feed-con .c-feed .content .stars i
+    {
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+
+    /* ----------------------- SECTION SIX STYLING ----------------------- */
+    #sec-six
+    {
+    padding: 20px 0px;
+    }
+    #sec-six .sec-head
+    {
+    width: 90%;
+    padding: 10px 0px 20px;
+    }
+    #sec-six .sec-head h2
+    {
+    font-size: 36px;
+    }
+    #sec-six .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-six .blog-container
+    {
+    width: 60%;
+    margin: 0px auto;
+    }
+    #sec-six .blog-container .blog
+    {
+    width: 100%;
+    }
+    #sec-six .blog-container .blog .blog-info .date
+    {
+    font-size: 14px;
+    line-height: 20px;
+    }
+    #sec-six .blog-container .blog .blog-info h3
+    {
+    font-size: 22px;
+    margin: 10px 0px;
+    }
+    #sec-six .blog-container .blog .blog-info h3 a
+    {
+    font-size: 22px;
+    margin: 10px 0px;
+    }
+    #sec-six .blog-container .blog .blog-info p
+    {
+    margin-bottom: 12px;
+    }
+    #sec-six .blog-container .blog .blog-info .rm-link a
+    {
+    font-size: 14px;
+    }
+    #sec-six .blog-container .blog .blog-info .rm-link i
+    {
+    font-size: 12px;
+    padding-left: 3px;
+    }
+
+    /* ----------------------- SECTION SEVEN STYLING ----------------------- */
+    #sec-seven
+    {
+    padding: 20px 0px;
+    }
+    #sec-seven .sec-head
+    {
+    width: 90%;
+    padding: 30px 0px 30px;
+    }
+    #sec-seven .sec-head h2
+    {
+    font-size: 36px;
+    }
+    #sec-seven .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-seven .form-container
+    {
+    width: 80%;
+    }
+    #sec-seven .form-container form .name-con
+    {
+    width: 50%;
+    padding-right: 10px;
+    }
+    #sec-seven .form-container form .mail-con
+    {
+    width: 50%;
+    padding-left: 10px;
+    }
+    #sec-seven .form-container form input[name="clint-name"] , input[name="clint-mail"] , input[name="subject"] , textarea
+    {
+    height: 30px;
+    padding: 5px 10px;
+    }
+    #sec-seven .form-container form .btn
+    {
+    text-align: center;
+    }
+    #sec-seven .form-container form .btn button
+    {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    }
+
+    /* ----------------------- FOOTER SECTION STYLING ----------------------- */
+    #footer .footer-icons
+    {
+    margin-bottom: 14px;
+    }
+    #footer .footer-icons i
+    {
+    font-size: 17px;
+    }
+    #footer .cr-sec
+    {
+    font-size: 18px;
+    }
+    #footer .cr-sec a
+    {
+    font-size: 18px;
+    font-weight: bold;
+    }
+}
+
+
+/* ----------------------- RANGE ( MIN-WIDTH=993 ) TO ( MAX-WIDTH=1200) ----------------------- */
+
+@media screen and (min-width: 993px) and (max-width: 1200px)
+{
+    /* ----------------------- HOME SECTION STYLING ----------------------- */
+    /* navigation-bar */
+    #home .clr-opacity .nav-bar .nav-con
+    {
+    width: 100%;
+    }
+    #home .clr-opacity .nav-bar .nav-con .logo-con
+    {
+    width: 20%;
+    float: left;
+    }
+    #home .clr-opacity .nav-bar .nav-con .logo-con h2
+    {
+    padding: 15px 0;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con
+    {
+    width: 80%;
+    float: right;
+    padding-bottom: 5px;
+    }
+    #home .clr-opacity .nav-bar .nav-con .nav-center
+    {
+    width: 90%;
+    margin: auto;
+    }
+    #home .clr-opacity .nav-bar .nav-con .links-con ul
+    {
+    padding-top: 20px;
+    float: right;
+    }
+    /* HOME CONTENT */
+    #home .h-content h3
+    {
+    font-size: 24px;
+    }
+    #home .h-content h1
+    {
+    font-size: 70px;
+    }
+    #home .h-content h4
+    {
+    font-size: 26px;
+    }
+
+    /* ----------------------- SECTION ONE STYLING ----------------------- */
+    #sec-one
+    {
+    padding: 0px;
+    }
+    #sec-one .par-data
+    {
+    width: 90%;
+    }
+    /* image-section */
+    #sec-one .par-data .img-container
+    {
+    width: 50%;
+    }
+    #sec-one .par-data .img-container .img-bdr .layer-container img
+    {
+    width: 100%;
+    }
+    /* about-section */
+    #sec-one .par-data .about
+    {
+    width: 50%;
+    padding-left: 0px;
+    }
+    #sec-one .par-data .about h2
+    {
+    padding-left: 6px;
+    }
+    #sec-one .par-data .about .info-con .info-one
+    {
+    width: 40%;
+    float: left;
+    }
+    #sec-one .par-data .about .info-con .info-two
+    {
+    width: 60%;
+    float: left;
+    }
+    #sec-one .par-data .about .info-con .info-one p
+    {
+    margin-bottom: 13px;
+    font-size: 14px;
+    }
+    #sec-one .par-data .about .info-con .info-two p
+    {
+    margin-bottom: 13px;
+    font-size: 14px;
+    }
+    #sec-one .par-data .about .info-con .info-one span
+    {
+    padding-right: 5px;
+    }
+    #sec-one .par-data .about .info-con .info-two span
+    {
+    padding-right: 5px;
+    }
+    #sec-one .par-data .about .btn button
+    {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 7px 14px;
+    border-radius: 4px;
+    }
+
+    /* ----------------------- SECTION TWO STYLING ----------------------- */
+    #sec-two
+    {
+    padding: 20px 0px;
+    }
+    #sec-two .sec-head
+    {
+    width: 90%;
+    padding: 30px 0px 10px;
+    }
+    #sec-two .sec-head h2
+    {
+    font-size: 38px;
+    }
+    #sec-two .sec-head .lines .hr-bt i
+    {
+    width: 150px;
+    }
+    #sec-two .cards-container
+    {
+    width: 90%;
+    }
+    #sec-two .cards-container .card
+    {
+    margin: auto;
+    width: 50%;
+    float: left;
+    padding: 30px 15px;
+    }
+    #sec-two .cards-container .card i
+    {
+    font-size: 30px;
+    }
+
+    /* ----------------------- SECTION THREE STYLING ----------------------- */
+    #sec-three
+    {
+    padding: 30px 0px;
+    }
+    #sec-three .sec-head
+    {
+    width: 90%;
+    padding: 10px 0px 30px;
+    }
+    #sec-three .sec-head h2
+    {
+    font-size: 38px;
+    }
+    #sec-three .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-three .caption
+    {
+    width: 100%;
+    text-align: center;
+    margin: 0px auto 20px;
+    }
+    #sec-three .caption button
+    {
+    font-size: 16px;
+    padding: 0px 12px;
+    transition: all 0.5s;
+    }
+    #sec-three .container
+    {
+    width: 90%;
+    }
+    #sec-three .container .product-card
+    {
+    width: 33.3333%;
+    }
+
+    /* ----------------------- SECTION FOUR STYLING ----------------------- */
+    #sec-four
+    {
+    padding: 30px 0px 0px;
+    }
+    #sec-four .gr-container
+    {
+    padding: 30px 0px;
+    }
+    #sec-four .gr-container .graph
+    {
+    margin-bottom: 30px;
+    }
+    #sec-four .gr-container .graph i
+    {
+    font-size: 25px;
+    margin-bottom: 10px;
+    }
+    #sec-four .gr-container .graph h3
+    {
+    margin-bottom: 0px;
+    }
+
+    /* ----------------------- SECTION FIVE STYLING ----------------------- */
+    #sec-five
+    {
+    padding: 20px 0px 0px;
+    }
+    #sec-five .sec-head
+    {
+    width: 100%;
+    padding: 20px 0px 20px;
+    }
+    #sec-five .sec-head h2
+    {
+    font-size: 38px;
+    }
+    #sec-five .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-five .feed-con
+    {
+    width: 80%;
+    }
+    #sec-five .feed-con .c-feed
+    {
+    padding: 40px;
+    }
+    #sec-five .feed-con .c-feed .img-con
+    {
+    padding-right: 15px;
+    }
+    #sec-five .feed-con .c-feed .content
+    {
+    padding-left: 10px;
+    }
+    #sec-five .feed-con .c-feed .content h4
+    {
+    font-size: 14px;
+    margin-bottom: 8px;
+    }
+    #sec-five .feed-con .c-feed .content h4 i
+    {
+    font-size: 12px;
+    padding-right: 7px;
+    }
+    #sec-five .feed-con .c-feed .content .stars i
+    {
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+
+    /* ----------------------- SECTION SIX STYLING ----------------------- */
+    #sec-six
+    {
+    padding: 20px 0px;
+    }
+    #sec-six .sec-head
+    {
+    width: 90%;
+    padding: 10px 0px 20px;
+    }
+    #sec-six .sec-head h2
+    {
+    font-size: 38px;
+    }
+    #sec-six .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-six .blog-container
+    {
+    width: 90%;
+    margin: 0px auto;
+    }
+    #sec-six .blog-container .blog iframe 
+    {
+    height: 148px;
+    }
+    #sec-six .blog-container .blog .blog-info .date
+    {
+    font-size: 14px;
+    line-height: 20px;
+    }
+    #sec-six .blog-container .blog .blog-info h3
+    {
+    font-size: 22px;
+    margin: 10px 0px;
+    }
+    #sec-six .blog-container .blog .blog-info h3 a
+    {
+    font-size: 22px;
+    }
+    #sec-six .blog-container .blog .blog-info p
+    {
+    margin-bottom: 12px;
+    }
+    #sec-six .blog-container .blog .blog-info .rm-link a
+    {
+    font-size: 14px;
+    }
+    #sec-six .blog-container .blog .blog-info .rm-link i
+    {
+    font-size: 12px;
+    padding-left: 3px;
+    }
+
+    /* ----------------------- SECTION SEVEN STYLING ----------------------- */
+    #sec-seven
+    {
+    padding: 20px 0px;
+    }
+    #sec-seven .sec-head
+    {
+    width: 90%;
+    padding: 30px 0px 30px;
+    }
+    #sec-seven .sec-head h2
+    {
+    font-size: 38px;
+    }
+    #sec-seven .sec-head .lines .hr-bt i
+    {
+    width: 120px;
+    }
+    #sec-seven .form-container
+    {
+    width: 70%;
+    }
+    #sec-seven .form-container form input[name="clint-name"] , input[name="clint-mail"] , input[name="subject"] , textarea
+    {
+    height: 30px;
+    }
+    #sec-seven .form-container form .btn
+    {
+    text-align: center;
+    }
+    #sec-seven .form-container form .btn button
+    {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 7px 14px;
+    border-radius: 4px;
+    }
+
+    /* ----------------------- FOOTER SECTION STYLING ----------------------- */
+    #footer .footer-icons
+    {
+    margin-bottom: 14px;
+    }
+    #footer .footer-icons i
+    {
+    font-size: 17px;
+    }
+    #footer .cr-sec
+    {
+    font-size: 18px;
+    }
+}
